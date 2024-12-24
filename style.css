@@ -5,10 +5,21 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://www.transparenttextures.com/patterns/brushed-alum.png'); /* Textura metálica */
+    background-color: #333; /* Cor de fundo base */
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo semitransparente para destacar o texto */
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
 }
 
 header {
@@ -21,12 +32,6 @@ header {
 header img {
     max-width: 200px;
     height: auto;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
 }
 
 .about {
