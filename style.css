@@ -68,26 +68,27 @@ header img {
     margin-top: 2rem;
 }
 
-.cta a {
-    display: inline-block;
-    text-decoration: none;
-    background-color: #25d366;
-    color: #fff;
-    padding: 1rem 2rem;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
-.cta a:hover {
-    background-color: #1da851;
-}
-
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+}
+
+.whatsapp-btn {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #25D366;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px; /* Bordas arredondadas */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.1); /* Efeito de zoom no hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
 }
